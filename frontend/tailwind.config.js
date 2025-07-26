@@ -52,6 +52,12 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
+  			},
+  			cream: {
+  				100: '#fdf6e3',
+  				200: '#f7e6b3',
+  				300: '#f0d574',
+  				400: '#ebc441'
   			}
   		},
   		keyframes: {
