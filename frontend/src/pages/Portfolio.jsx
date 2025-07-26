@@ -167,13 +167,31 @@ const Portfolio = () => {
               Let's bring your vision to life with the same passion and excellence 
               showcased in our portfolio. Every story deserves to be told beautifully.
             </p>
-            <Button
-              asChild
-              size="lg"
-              className="bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-slate-900 font-semibold px-8 py-4 text-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-orange-500/25"
-            >
-              <a href="/contact">Start Your Project</a>
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button
+                asChild
+                size="lg"
+                className="bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-slate-900 font-semibold px-8 py-4 text-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-orange-500/25"
+              >
+                <a href="/contact">Start Your Project</a>
+              </Button>
+              
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="border-2 border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-slate-900 px-8 py-4 text-lg transition-all duration-300 hover:scale-105 backdrop-blur-sm bg-slate-900/30 group"
+              >
+                <a 
+                  href={mockData.contact.fullPortfolioLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  🎬 Browse Complete Drive
+                  <ExternalLink className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
