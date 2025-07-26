@@ -1,8 +1,7 @@
-// Mock data for Unique Art Vision Studios
-
 export const mockData = {
   hero: {
     videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=165&oauth2_token_id=57447761",
+    backgroundImage: "https://images.unsplash.com/photo-1612544409025-e1f6a56c1152?w=1920&h=1080&fit=crop",
     headline: "Crafting Visual Stories That Speak",
     subtitle: "Cinematic excellence meets creative storytelling. We transform your moments into visual masterpieces that captivate, inspire, and convert.",
     ctas: {
@@ -58,25 +57,25 @@ export const mockData = {
       id: 1,
       title: "Epic Cinematic Reel",
       category: "Cinematic Reels",
-      thumbnail: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&h=600&fit=crop",
+      thumbnail: "https://images.unsplash.com/photo-1597465103212-7cd0b847a246?w=800&h=600&fit=crop",
       videoUrl: "https://www.instagram.com/reel/DKEO79dMRdp/",
-      description: "A breathtaking cinematic journey showcasing the art of visual storytelling."
+      description: "A breathtaking cinematic journey showcasing the art of visual storytelling with professional color grading and sound design."
     },
     {
       id: 2,
       title: "Wedding Highlight Magic",
       category: "Event Highlights",
-      thumbnail: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop",
+      thumbnail: "https://images.unsplash.com/photo-1612544409025-e1f6a56c1152?w=800&h=600&fit=crop",
       videoUrl: "https://www.instagram.com/reel/DLsTTKjozHg/",
-      description: "Capturing the essence of love through beautifully crafted highlight reels."
+      description: "Capturing the essence of love through beautifully crafted highlight reels with emotional storytelling and cinematic excellence."
     },
     {
       id: 3,
       title: "Professional Interview",
       category: "Talking-Head Videos",
-      thumbnail: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=600&fit=crop",
+      thumbnail: "https://images.unsplash.com/photo-1490971774356-7fac993cc438?w=800&h=600&fit=crop",
       videoUrl: "https://www.instagram.com/reel/DLAQsX2gZsK/",
-      description: "Polished talking-head edits that convey professionalism and authenticity."
+      description: "Polished talking-head edits that convey professionalism and authenticity with perfect framing and lighting."
     }
   ],
 
@@ -87,7 +86,7 @@ export const mockData = {
         id: 1,
         title: "Epic Cinematic Reel",
         category: "Cinematic Reels",
-        thumbnail: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&h=600&fit=crop",
+        thumbnail: "https://images.unsplash.com/photo-1597465103212-7cd0b847a246?w=800&h=600&fit=crop",
         videoUrl: "https://www.instagram.com/reel/DKEO79dMRdp/",
         description: "A breathtaking cinematic journey showcasing the art of visual storytelling with professional color grading and sound design."
       },
@@ -95,41 +94,38 @@ export const mockData = {
         id: 2,
         title: "Wedding Highlight Magic",
         category: "Event Highlights",
-        thumbnail: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop",
+        thumbnail: "https://images.unsplash.com/photo-1612544409025-e1f6a56c1152?w=800&h=600&fit=crop",
         videoUrl: "https://www.instagram.com/reel/DLsTTKjozHg/",
-        description: "Capturing the essence of love through beautifully crafted highlight reels with emotional storytelling."
+        description: "Capturing the essence of love through beautifully crafted highlight reels with emotional storytelling and cinematic excellence."
       },
       {
         id: 3,
         title: "Professional Interview",
         category: "Talking-Head Videos",
-        thumbnail: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=600&fit=crop",
+        thumbnail: "https://images.unsplash.com/photo-1490971774356-7fac993cc438?w=800&h=600&fit=crop",
         videoUrl: "https://www.instagram.com/reel/DLAQsX2gZsK/",
-        description: "Polished talking-head edits that convey professionalism and authenticity with perfect framing."
+        description: "Polished talking-head edits that convey professionalism and authenticity with perfect framing and lighting."
       },
       {
         id: 4,
         title: "Corporate Vision Reel",
         category: "Cinematic Reels",
-        thumbnail: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=800&h=600&fit=crop",
-        videoUrl: "#",
-        description: "Dynamic corporate storytelling through cinematic visuals and compelling narratives."
+        thumbnail: "https://images.unsplash.com/photo-1678507725372-d2648c0962cb?w=800&h=600&fit=crop",
+        description: "Dynamic corporate storytelling through cinematic visuals and compelling narratives that inspire and engage."
       },
       {
         id: 5,
         title: "Birthday Celebration",
         category: "Event Highlights",
-        thumbnail: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=600&fit=crop",
-        videoUrl: "#",
-        description: "Joyful celebration highlights capturing every precious moment and emotion."
+        thumbnail: "https://images.unsplash.com/photo-1625690303837-654c9666d2d0?w=800&h=600&fit=crop",
+        description: "Joyful celebration highlights capturing every precious moment and emotion with cinematic flair."
       },
       {
         id: 6,
         title: "CEO Interview Series",
         category: "Talking-Head Videos",
-        thumbnail: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
-        videoUrl: "#",
-        description: "Executive interview series with professional lighting and seamless editing."
+        thumbnail: "https://images.unsplash.com/photo-1577190651915-bf62d54d5b36?w=800&h=600&fit=crop",
+        description: "Executive interview series with professional lighting, seamless editing, and brand-consistent presentation."
       }
     ]
   },
