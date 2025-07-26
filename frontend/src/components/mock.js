@@ -14,7 +14,12 @@ export const mockData = {
   about: {
     name: "Suryansh Yadav",
     bio: "I'm Suryansh Yadav, a passionate visual storyteller who believes every frame has the power to evoke emotion and create lasting connections. With years of experience in cinematic production, I specialize in turning ordinary moments into extraordinary visual narratives that speak directly to the heart.",
-    expertise: ["Cinematic Direction", "Visual Storytelling", "Post-Production", "Creative Strategy"]
+    expertise: ["Cinematic Direction", "Visual Storytelling", "Post-Production", "Creative Strategy"],
+    team: {
+      operationHead: "Venkatesh Naikar",
+      operationHeadTitle: "Operation Head Manager"
+    },
+    photo: "https://customer-assets.emergentagent.com/job_cinefolio/artifacts/y67y2gf2_IMG_1022%20%283%29%281%29.jpg"
   },
 
   services: [
