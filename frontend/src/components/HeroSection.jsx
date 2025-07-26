@@ -25,9 +25,14 @@ const HeroSection = () => {
       <div className="absolute inset-0 w-full h-full">
         {isVideoLoaded ? (
           <div className="relative w-full h-full bg-slate-800">
-            {/* Cinematic gradient overlay */}
+            {/* Enhanced cinematic gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-slate-900/90 via-slate-900/50 to-orange-900/30" />
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-40" />
+            <div 
+              className="absolute inset-0 bg-cover bg-center opacity-50" 
+              style={{
+                backgroundImage: `url('${mockData.hero.backgroundImage}')`
+              }}
+            />
             
             {/* Enhanced floating particles */}
             <div className="absolute inset-0">
@@ -37,10 +42,13 @@ const HeroSection = () => {
               <div className="absolute top-1/2 right-1/4 w-1 h-1 bg-yellow-300 rounded-full animate-pulse opacity-40" style={{ animationDelay: '0.5s' }} />
             </div>
 
-            {/* Cinematic film grain effect */}
-            <div className="absolute inset-0 bg-black opacity-5 mix-blend-multiply" style={{
+            {/* Enhanced cinematic film grain effect */}
+            <div className="absolute inset-0 bg-black opacity-3 mix-blend-multiply" style={{
               backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E")'
             }} />
+            
+            {/* Cinematic vignette effect */}
+            <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-slate-900/20" />
           </div>
         ) : (
           <div className="w-full h-full bg-slate-900 flex items-center justify-center">
