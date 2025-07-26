@@ -32,10 +32,32 @@ const Portfolio = () => {
               Portfolio
             </span>
           </h1>
-          <p className="text-xl text-cream-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-cream-300 max-w-3xl mx-auto leading-relaxed mb-8">
             Dive into our collection of cinematic masterpieces. Each project tells a unique story, 
             crafted with passion and precision to deliver visual excellence that resonates.
           </p>
+          
+          {/* Full Portfolio Access Button */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button
+              asChild
+              size="lg"
+              className="bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-slate-900 font-semibold px-6 py-3 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-orange-500/25 group"
+            >
+              <a 
+                href={mockData.contact.fullPortfolioLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                🎬 Complete Portfolio Drive
+                <ExternalLink className="ml-2 h-4 w-4 group-hover:scale-110 transition-transform" />
+              </a>
+            </Button>
+            
+            <p className="text-cream-400 text-sm">
+              Access our complete collection of 100+ videos
+            </p>
+          </div>
         </div>
       </section>
 
