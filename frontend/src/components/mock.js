@@ -144,6 +144,7 @@ export const mockData = {
     whatsapp: {
       number: "+919406586610",
       message: "Hi! I'm interested in your video production services."
-    }
+    },
+    fullPortfolioLink: "https://drive.google.com/drive/folders/1aCiJR_8YLAapJztxxjTzH6lkeWmJLCWq"
   }
 };
