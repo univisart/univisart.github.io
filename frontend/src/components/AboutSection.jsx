@@ -15,7 +15,7 @@ const AboutSection = () => {
     <section className="py-16 bg-slate-800/50">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left: Image & Team */}
+          {/* Left: Image & Stats */}
           <div className="space-y-6">
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-orange-500/20 to-yellow-500/20 p-6">
@@ -32,18 +32,13 @@ const AboutSection = () => {
                   </div>
                 </div>
               </div>
-            </div>
-
-            {/* Team Member Card */}
-            <div className="bg-slate-900/50 backdrop-blur-sm rounded-xl p-4 border border-orange-500/20">
-              <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gradient-to-r from-orange-500/30 to-yellow-500/30 rounded-full flex items-center justify-center">
-                  <Star className="h-6 w-6 text-orange-400" />
-                </div>
-                <div>
-                  <h4 className="text-cream-100 font-semibold">{mockData.about.team.operationHead}</h4>
-                  <p className="text-orange-400 text-sm">{mockData.about.team.operationHeadTitle}</p>
-                </div>
+              
+              {/* Name below photo */}
+              <div className="text-center mt-4">
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-yellow-400 bg-clip-text text-transparent">
+                  Suryansh Yadav
+                </h3>
+                <p className="text-cream-300 text-sm">Founder & Creative Director</p>
               </div>
             </div>
 
@@ -108,6 +103,41 @@ const AboutSection = () => {
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
+            </div>
+          </div>
+        </div>
+
+        {/* Venkatesh Naikar Section - After Meet Suryansh Section */}
+        <div className="mt-16 pt-12 border-t border-orange-500/20">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-cream-100 mb-4">
+              Our{" "}
+              <span className="bg-gradient-to-r from-orange-400 to-yellow-400 bg-clip-text text-transparent">
+                Team
+              </span>
+            </h3>
+            <p className="text-cream-300 max-w-2xl mx-auto">
+              Behind every great project is a dedicated team committed to excellence
+            </p>
+          </div>
+
+          {/* Team Member Card */}
+          <div className="max-w-md mx-auto">
+            <div className="bg-slate-900/50 backdrop-blur-sm rounded-xl p-6 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 hover:scale-105">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-orange-500/30 to-yellow-500/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Star className="h-8 w-8 text-orange-400" />
+                </div>
+                <h4 className="text-xl font-bold text-cream-100 mb-2">
+                  {mockData.about.team.operationHead}
+                </h4>
+                <p className="text-orange-400 font-semibold mb-3">
+                  {mockData.about.team.operationHeadTitle}
+                </p>
+                <p className="text-cream-300 text-sm leading-relaxed">
+                  Ensuring seamless operations and exceptional project delivery with attention to every detail.
+                </p>
+              </div>
             </div>
           </div>
         </div>
