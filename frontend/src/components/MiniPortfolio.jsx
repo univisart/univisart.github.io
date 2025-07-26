@@ -92,17 +92,34 @@ const MiniPortfolio = () => {
 
         {/* View All CTA - More Compact */}
         <div className="text-center mt-10">
-          <Button
-            asChild
-            size="lg"
-            variant="outline"
-            className="border-2 border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-slate-900 px-6 py-3 transition-all duration-300 hover:scale-105 backdrop-blur-sm bg-slate-900/30 group"
-          >
-            <a href="/portfolio">
-              View Full Portfolio
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </a>
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-2 border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-slate-900 px-6 py-3 transition-all duration-300 hover:scale-105 backdrop-blur-sm bg-slate-900/30 group"
+            >
+              <a href="/portfolio">
+                View Full Portfolio
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </a>
+            </Button>
+            
+            <Button
+              asChild
+              size="lg"
+              className="bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-slate-900 font-semibold px-6 py-3 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-orange-500/25 group"
+            >
+              <a 
+                href={mockData.contact.fullPortfolioLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                🎬 Complete Drive
+                <ExternalLink className="ml-2 h-4 w-4 group-hover:scale-110 transition-transform" />
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
